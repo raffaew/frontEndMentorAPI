@@ -1,8 +1,13 @@
 import "./App.css";
 import Home from "./components/home/Home";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
-  return <Home />;
+  return (
+    <BrowserRouter basename="/advice-generator-app-main">
+      <Home />
+    </BrowserRouter>
+  );
 }
 
 export default App;

@@ -14,7 +14,8 @@
   "dependencies": {
     "axios": "^1.11.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
@@ -32,5 +33,5 @@
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
   },
-  "homepage": "https://github.com/raffaew/frontEndMentorAPI"
+  "homepage": "https://raffaew.github.io/frontEndMentorAPI/advice-generator-app-main"
 }
