@@ -31,10 +31,10 @@ const Home = () => {
       <div className="box">
         <p>ADVICE # {advice?.id}</p>
         <span className="advice-text">"{loading ? "Loading..." : advice?.advice}"</span>
-        <img className="pattern-divider" src="/pattern-divider-desktop.svg" alt="" />
+        <img className="pattern-divider" src="/frontEndMentorAPI/pattern-divider-desktop.svg" alt="" />
       </div>
       <div className="dice-icon" onClick={fetchData}>
-          <img src="/icon-dice.svg" alt="" />
+          <img src="/frontEndMentorAPI/icon-dice.svg" alt="" />
         </div>
     </div>
   );
