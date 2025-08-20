@@ -53,16 +53,18 @@
   }
 }
 
-@media (max-width: 500px) {
-  .box {
-    width: 350px;
+@media screen and (max-width: 500px) {
+  .container {
+    .box {
+      width: 350px;
 
-    .pattern-divider {
-      width: 100%;
+      .pattern-divider {
+        width: 100%;
+      }
     }
-  }
 
-  .advice-text {
-    width: 300px;
+    .advice-text {
+      width: 300px;
+    }
   }
 }
